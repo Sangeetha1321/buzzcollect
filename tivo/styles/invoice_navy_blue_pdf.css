@@ -1,0 +1,31 @@
+body { background: #FFF;}
+.document { background: #FFFFFF; box-shadow: 0px 0px 9px #b3b3b3; padding: 15px; margin-top: 20px; min-height: 500px; border: 1px solid #b3b3b3; margin-bottom: 20px;}
+.align-right { text-align: right; }
+#pay-button { position: absolute; top: 20px; right: 50px; }
+.paid { color: #38cd3c;}
+.overdue { color: #d91628; font-weight: bold;}
+.small-text { font-size: 11px; }
+.clearfix { clear: both; }
+
+.part-1 { float: left;  }
+.part-2 { float: left;  }
+.col-md-12 { width: 95%; padding: 15px; }
+
+
+.invoice-header { background: #2f5279; height: 40px; }
+.invoice-header-top { margin-top: 20px; }
+.invoice-header-text { color: #FFF; padding-top: 20px; font-size: 18px;  }
+.invoice-inner { margin-left: 10px; float: left; width: 200px; vertical-align: top; font-size: 12px; }
+.invoice-inner-top { margin-top: 40px; }
+.invoice-inner-details { float: right; text-align: right; }
+
+.table-heading { background: #2f5279; color: #FFF; border-bottom: none !important; }
+thead { border-bottom: none !important; }
+th { border: none !important; color: #FFF !important; text-align: left; padding: 4px;}
+td { border: none !important; padding-top: 30px !important; padding-bottom: 30px !important; background: #fdfdfd; border-top: 5px solid #FFF !important; border-bottom: 5px solid #FFF !important; }
+tbody { border: none !important; }
+.sub-total-cell { padding-right: 30px !important; }
+.cost-cell { background: #cffdf8; }
+.center-cell { text-align: center; }
+
+.invoice-header-logo { font-size: 22px; }

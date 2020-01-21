@@ -1,0 +1,180 @@
+.field-area { border: 1px solid #EEE; border-radius: 4px; padding: 10px; margin-top: 10px; }
+.field_options { display: none; }
+.finance-blob-unit { font-size: 14px; color: #000;  }
+.finance-blob { display: inline-block; margin: 5px; font-size: 11px; color: #b4b4b4; width: 150px; }
+.task-icon { border-radius: 16px; width: 30px; }
+.midplz { vertical-align: middle; }
+.task-blob-title { font-size: 11px; margin-bottom: 2px; }
+.ui-datepicker{z-index: 9999999 !important};
+
+.new-ticket { border-left: 2px solid #62b457; }
+.task-blob-date { font-size: 11px; color: #DDD; }
+
+#notifications-scroll { overflow-x: hidden; }
+#email-scroll { overflow-x: hidden; }
+#projects-scroll { overflow-x: hidden; }
+#timer-scroll { overflow-x: hidden; }
+
+.project-badge { font-size: 8px !important; position: absolute; top: 6px; right: 0px; background: #1f98f5 !important;}
+
+.page-header-title span { margin-right: 10px; }
+.page-header-simple-title { color: #182232; font-weight: 600; float: left; line-height: 38px; font-size: 18px;}
+.no-margin-bottom { margin-bottom: 0px; }
+
+/* Data points */
+.project-info { margin-top: 10px; margin-bottom: 10px; font-size: 12px; }
+/* .project-info-bit { font-weight: 600; margin-bottom: 0px; }
+.project-info-title { color: #949596; margin-bottom: 0px; } */
+.project-info-title {
+	color: #000000;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+.project-info-bit { margin-bottom: 0px; }
+.project-block { display: inline-block; margin: 10px; }
+
+/*user box*/
+.user-box-name { display: inline-block; font-size: 12px; line-height: 6px; vertical-align: middle;}
+.user-box-name p { margin-bottom: 0px; margin-top: 5px; margin-left: 0px; margin-right: 0px; }
+.user-box-username { font-size: 11px; color: #8c8c8c; line-height: 10px; margin-top: 7px; }
+.task-blob-title { font-size: 11px; margin-bottom: 2px; }
+
+/* New buttons */
+.btn-round { border: 1px solid #bebebe; color: #949596; background: #FFF; }
+.label-round { border: 1px solid #bebebe; color: #949596; background: #FFF; }
+
+/* Timer */
+.timer-area { background: #f8f8f8; border-radius: 4px; padding: 10px; border: 1px solid #c5c5c5; position: relative; }
+.large-clock { font-size: 48px; }
+.timer-date { cursor: pointer; position: absolute; top: 0px; right: 0px; padding: 5px; background: #d4dce2; text-align: center; font-size: 11px; color: #494949; border-radius: 0px 4px 0px 4px; }
+.timer-details { text-align: center;  }
+.timer-details-large { font-size: 24px; }
+.timer-small-details { clear: both; font-size: 12px; text-align: center; }
+.timer-area-wrapper { width: 300px; display: inline-block; height: 120px; vertical-align: top; margin: 5px; }
+.timer-wrapper { margin-top: 20px;  }
+.timer-user { position: absolute; top: 10px; left: 10px; }
+.live-timer { border-left: 2px solid #3da91d; }
+.no-display { display: none; }
+
+.user_role_button { border: 1px solid #1e8ed0; font-weight: 600; border-radius: 4px; padding: 5px; font-size: 11px; margin: 1px; margin-bottom: 2px; vertical-align: top; display: inline-block;}
+.user_role_button:hover { background: #e3efff; }
+.user_role_button.admin { border: 1px solid #1bbc42 !important; color: #1bbc42; }
+.user_role_button.project { border: 1px solid #1e8ed0 !important; color: #1e8ed0; }
+.user_role_button.client { border: 1px solid #e46825 !important; color: #e46825;}
+.user_role_button.banned { border: 1px solid #e46825 !important; color: #eb271c;}
+table.dataTable { width: 100% !important; }
+
+.btn-flat { border: 1px solid #cacaca !important; color: #FFF; background: #cacaca; font-weight: 600; border-radius: 4px; padding: 5px; font-size: 11px; margin: 1px; margin-bottom: 2px; vertical-align: top; display: inline-block;}
+.btn-flat:hover { border: 1px solid #3872bf !important; color: #FFF; background: #3872bf; }
+.btn-flat-active { border: 1px solid #5eaaee !important; color: #FFF; background: #5eaaee; }
+
+.fp-project { display: inline-block; margin: 5px; padding: 10px; border: 1px solid #DDD; border-radius: 4px; text-align: center; min-width: 140px;}
+.tool-item { display: inline-block; margin: 5px; padding: 10px; border: 1px solid #DDD; border-radius: 4px; text-align: center; min-width: 140px;}
+
+/* profile*/
+.profile-user-icon { margin-bottom: 10px; }
+.profile-user-role { position: absolute; top: 5px; right: 20px; }
+.profile-online { color: #36c90f; font-weight: 600; }
+.profile-offline { color: #acacac; font-weight: 600; }
+.profile-p { margin-bottom: 2px; }
+.profile-heading { margin: 0px; font-weight: 600; color: #808080; padding-bottom: 2px; border-bottom: 1px solid #808080; margin-bottom: 10px; font-size: 16px;}
+.borderless td, .borderless th {
+    border: none !important;
+}
+.profile-info-content { font-weight: 500; }
+.profile-big-text { font-size: 14px; }
+
+
+/*Contenttools*/
+/* Alignment styles for images, videos and iframes in editable regions */
+
+/* Center (default) */
+[data-editable] iframe,
+[data-editable] image,
+[data-editable] [data-ce-tag=img],
+[data-editable] img,
+[data-editable] video {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+/* Left align */
+[data-editable] .align-left {
+    clear: initial;
+    float: left;
+    margin-right: 0.5em;
+}
+
+/* Right align */
+[data-editable].align-right {
+    clear: initial;
+    float: right;
+    margin-left: 0.5em;
+}
+
+/* Alignment styles for text in editable regions */
+[data-editable] .text-center {
+    text-align: center;
+}
+
+[data-editable] .text-left {
+    text-align: left;
+}
+
+[data-editable] .text-right {
+    text-align: right;
+}
+.author {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+/* Summernote Editor*/
+.note-editor.note-frame { border: 1px solid #DDD; }
+.note-editor .note-toolbar .btn { box-shadow: none; background: #f8f8f8; border: 1px solid #EEE; }
+.note-editor .note-toolbar .active { box-shadow: none; background: #DDD; border: none; }
+.note-editor.panel-default > .panel-heading {  background-image: none !important; background: #f8f8f8 !important; }
+.note-editor .modal-body { margin: 10px; }
+.note-group-select-from-files { display: none; }
+
+.form-error { margin-top: 10px; margin-bottom: 10px; border: 1px solid #fc1b00; padding: 5px; background: #fcf5f0; color: #864143;}
+.form-error-no-margin { border: 1px solid #fc1b00; padding: 5px; background: #fcf5f0; color: #864143;}
+.errorField { border: 1px solid #fc1b00 !important; }
+
+.pill-bg { background: #f8f8f8; }
+.note-title { margin-bottom: 10px; font-size: 14px; }
+.note-content { font-size: 12px; }
+.notelabel { font-weight: normal; cursor: pointer; }
+.note-todos { margin-bottom: 10px; border-bottom: 1px solid #f8f8f8; }
+.note-todos-title { margin-bottom: 20px !important; border-bottom: 1px solid #DDD; padding-bottom: 10px; }
+.nostrike { text-decoration: none !important; }
+.fadedtext { color: #8d95a7; }
+.tiny-text { font-size: 8px; }
+#scroll-window { max-height: 300px; overflow-y: scroll; }
+
+
+.light-label { color: #364c73;}
+.invoice-heading { margin: 0px; margin-bottom: 20px; }
+.invoice-item { border-radius: 4px; border: 1px solid #ACACAC; padding: 20px; margin-top: 10px; background: #F9F9F9;}
+.invoice-tab { font-size: 18px !important; }
+
+.db-header-nomargin { margin-bottom: 0px; }
+.small-text { font-size: 11px !important; }
+.invoice-theme { display: inline-block; border-radius: 4px; padding: 10px; border: 1px solid #DDD; margin: 10px; text-align: center; }
+.invoice-theme-active { font-weight: bold; border: 1px solid #1381b1; }
+.project-icon-small { width: 30px; }
+.center-pdf-logo { text-align: center; }
+.pdf-project-heading { text-align: center; }
+
+.content-area-padding { background: #FFF; border-radius: 8px; padding-top: 20px; margin-bottom: 100px; padding: 15px; }
+.project-area { background: #FFF; border-radius: 4px; padding: 10px; margin-bottom: 10px; text-align: center;}
+.project-spot { display: inline-block; margin: 10px; padding: 10px; text-align: center; border: 1px solid #EEE; border-radius: 4px; background: #FFF; width: 150px; vertical-align: top; height: 200px;}
+.attached-file { display: inline-block; margin: 10px; padding: 10px; text-align: center; border: 1px solid #EEE; border-radius: 4px; background: #EEE; }
+.documentation-area { border-left: 1px solid #eeeeee; min-height: 400px;  }
+.documentation-area img { max-width: 100%;}
+.doc-sidebar { border-right: 1px solid #DDD; }
+.table-of-contents { list-style: none; padding-left: 5px; }
+.project-blob { display: inline-block; border: 1px solid #DDD; border-radius: 4px; padding: 10px; text-align: center; margin: 10px; width: 250px; min-height: 100px; vertical-align: top; }

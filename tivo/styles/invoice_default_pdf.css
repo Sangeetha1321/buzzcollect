@@ -1,0 +1,22 @@
+body { background: #eaeaea; font-family: 'Arial'; font-size: 12px; padding: 0px; margin: 0px;}
+.document { position: relative; background: #FFFFFF; box-shadow: 0px 0px 9px #b3b3b3; padding: 15px; margin-top: 10px; min-height: 500px; border: 1px solid #b3b3b3; margin: 0px;}
+.wrapper { position: relative; clear: both;}
+.part-1 { float: left; width: 48%; margin-right: 10px;}
+.part-2 { float: left; width: 48%; margin-left: 10px;}
+.part-2-right { position: absolute; top: 5px; right: 5px; }
+
+.table-bordered, .table-bordered td { border: 1px solid #DDD; }
+.table { border-collapse: collapse; width: 100%; font-size: 11px;}
+.table td { padding: 10px; }
+.table-header td { font-weight: bold; border-bottom: 1px solid #EEE; }
+
+.align-right{ text-align: right; }
+.warning { background: #fbf7db; text-align: right; }
+
+.label { }
+.label-danger { background: #d82025; color: #FFF; font-weight: bold; border: 2px solid #d82025; border-radius: 4px; font-size: 8px;}
+.label-success { background: #62d849; color: #FFF; font-weight: bold; border: 2px solid #62d849; border-radius: 4px; font-size: 8px;}
+.label-default { background: #eceefd; color: #3f4044; font-weight: bold; border: 2px solid #eceefd; border-radius: 4px; font-size: 8px;}
+
+.paypal-button { position: absolute; top: 5px; right: 5px; }
+.paid { color: #62d849; }
